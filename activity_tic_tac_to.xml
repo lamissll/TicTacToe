@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    grid:columnCount="3"
+    grid:rowCount="3"
+    android:layout_width="fill_parent"
+    android:layout_height="400dp">
+
+    <TextView android:id="@+id/player1name"
+        android:text="Player 1 Name"
+        grid:layout_columnSpan="2"
+        android:layout_height="20dp"
+        android:textSize="50px"
+        android:layout_width="wrap_content"/>
+
+
+    <TextView android:id="@+id/player2name"
+        android:text="Player 2 Name"
+        android:layout_height="20dp"
+        grid:layout_gravity="right"
+        android:textSize="50px"
+        android:layout_width="wrap_content"/>
+
+    <Button android:id="@+id/one"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/two"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/three"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px"
+        android:padding="0px"/>
+
+    <Button android:id="@+id/four"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/five"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/six"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/seven"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/eight"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <Button android:id="@+id/nine"
+        grid:layout_gravity="fill"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        android:text=" "
+        android:textSize="200px" />
+
+    <TextView
+        android:id="@+id/dialogue"
+        android:text="Click a button to start"
+        grid:layout_columnSpan="3"
+        grid:layout_gravity="center"
+        android:textSize="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.GridLayout>
